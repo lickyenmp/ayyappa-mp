@@ -10,5 +10,10 @@
     sh "df -h"
     sh "du -ksh"
     sh "uptime"
+
+    stage "3. install required packages"     
+    sh "sudo yum install -y git"    
+    sh "sudo yum install -y docker"     
+    sh "sudo yum install -y httpd" 
 }
 
