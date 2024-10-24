@@ -10,3 +10,6 @@
     sh "df -h"
     sh "du -ksh"
     sh "uptime"
+    sh "date"
+
+}
