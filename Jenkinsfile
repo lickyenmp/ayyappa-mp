@@ -9,7 +9,7 @@
     sh "free -m"
     sh "df -h"
     sh "du -ksh"
-    sh "uptime"
+    sh "date"
 
     stage "3. install required packages"     
     sh "sudo yum install -y git"     
