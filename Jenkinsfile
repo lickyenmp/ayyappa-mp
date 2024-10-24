@@ -9,7 +9,7 @@
     sh "free -m"
     sh "df -h"
     sh "du -ksh"
-    sh "date"
+    sh "uptime"
   
 }
 
